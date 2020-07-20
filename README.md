@@ -1,6 +1,5 @@
 <pre>
 
-
          ██╗███╗   ██╗██████╗ ██╗███╗   ██╗ ██████╗ ██████╗ ███████╗
          ██║████╗  ██║██╔══██╗██║████╗  ██║██╔═══██╗██╔══██╗██╔════╝
          ██║██╔██╗ ██║██║  ██║██║██╔██╗ ██║██║   ██║██║  ██║█████╗
@@ -19,33 +18,34 @@
 ───────────────────────────────────────────────────────────────────────────────
 
 This script will guide you through the installation, configuration
-and management of your Beacon masternode.
+and management of your Indinode masternode.
 
-To install and manage additional Beacon masternodes this script
-will install and configure dupmn for Beacon when required.
+To install and manage additional Indinode masternodes this script
+will install and configure dupmn for Indinode when required.
 
 
-Usage: beacon_masternode_manager.sh <option> [parameters]
+Usage: indinode_masternode_manager.sh <option> [parameters]
 
-install                : Install one or more Beacon masternodes
-summary                : Display Beacon main masternode installation summary
+install                : Install one or more Indinode masternodes
+summary                : Display Indinode main masternode installation summary
 help                   : Display extended help text (incl. dupmn)
-update                 : Update Beacon binaries
-addnodes               : Add/replace addnode list in beacon.conf
-bootstrap              : Download and install Beacon bootstrap
-createbootstrap        : Create Beacon bootstrap (from installed masternode)
-stop                   : Stop Beacon masternode
-start                  : Start Beacon masternode
-status                 : Show Beacon masternode status
-monitor [seconds]      : Monitor Beacon masternode and system continuously
+update                 : Update Indinode binaries
+addnodes               : Add/replace addnode list in indinode.conf
+bootstrap              : Download and install Indinode bootstrap
+createbootstrap        : Create Indinode bootstrap (from installed masternode)
+stop                   : Stop Indinode masternode
+start                  : Start Indinode masternode
+status                 : Show Indinode masternode status
+monitor [seconds]      : Monitor Indinode masternode and system continuously
 bashcompletion         : Add bash-completion commands
-showconf               : Display contents of beacon.conf
-replace [strA] [strB]  : Replace 'string A' with 'string B' in beacon.conf
+showconf               : Display contents of indinode.conf
+replace [strA] [strB]  : Replace 'string A' with 'string B' in indinode.conf
 createswap             : Create swap file
 optimize               : Enable SSD optimizations
 dupmn                  : Install or update dupmn
 disclaimer             : Display disclaimer
 donation               : Show donation addresses
+
 
 
 DISCLAIMER
